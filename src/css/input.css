@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+@font-face {
+    font-family: "poppins";
+    src: url(/fonts/Poppins-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "bevan";
+    src: url(/fonts/Bevan-Regular.ttf) format("truetype");
+}
+body { 
+    transition: all 0.3s ease-out;
+}
+

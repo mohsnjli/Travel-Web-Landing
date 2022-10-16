@@ -4,7 +4,7 @@
   "description": "A Travel Web designed by tailwindcss",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
