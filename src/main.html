@@ -12,31 +12,33 @@
 
 
 <body class="w-full h-max">
-    <!-------------------------------------------------- First Landing End-------------------------------------------------->
-    <header class="w-widthMax h-nav-height bg-black flex flex-row ">
+    <!------------------------------- Start Landing --------------------------->
+    <header class="w-widthMax h-nav-height bg-black flex flex-row sticky top-0 z-50">
         <div class="w-1/3 flex items-center">
             <img src="/pics/Travel-Logo-White-1.png" alt="">
         </div>
-        <nav class="w-max h-nav-height bg-secondary-black rounded-full">
+        <nav class="w-max h-nav-height bg-secondary-black rounded-full ">
             <ul class="flex items-center justify-center flex-row">
-                <a href="" class="flex items-end">
-                    <li class="bg-white hover:bg-primary-green hover:text-white transition-all duration-200 ease-in-out rounded-full py-[13px] px-[35px] mt-1 mr-[103px]
-                 text-black font-poppins font-semibold ">Home</li>
+                <a href="#" class="flex items-end">
+                    <li id="homeEffect" class="bg-white hover:bg-primary-green hover:text-white transition-all duration-200 ease-in-out rounded-full py-[13px] px-[35px] mt-1 mr-[103px]
+                 text-black font-poppins font-semibold ">
+                        <p>Home</p>
+                    </li>
                 </a>
-                <a href="" class="w-[122px] mr-[61px] flex items-end line">
+                <a href="#" class="w-[122px] mr-[61px] flex items-end line">
                     <li class="text-white font-poppins font-[17px] hover:text-primary-green">Explore</li>
                 </a>
-                <a href="" class="w-[122px] mr-[61px] flex items-end line">
+                <a href="#" class="w-[122px] mr-[61px] flex items-end line">
                     <li class="text-white font-poppins font-[17px] hover:text-primary-green">About us</li>
                 </a>
-                <a href="" class="w-[122px] mr-[61px] flex items-end line">
+                <a href="#" class="w-[122px] mr-[61px] flex items-end line">
                     <li class="text-white font-poppins font-[17px] hover:text-primary-green">Contact</li>
                 </a>
             </ul>
         </nav>
         <div class="w-1/3 h-nav-height">
             <div class="w-full h-nav-height flex items-center justify-center">
-                <a href="" class="text-white font-regular font-[18px] text-center hover:text-primary-green">Join us</a>
+                <a href="#" class="text-white font-regular font-[18px] text-center hover:text-primary-green">Join us</a>
             </div>
         </div>
     </header>
@@ -74,15 +76,15 @@
                 class="w-full h-[154px] backdrop-brightness-50 flex justify-start flex-row backdrop-blur-xl font-bold  shadow-xl">
                 <div class="w-full h-full flex items-center justify-center flex-col ">
                     <h5 class="text-center text-white leading-10">Tourists</h5>
-                    <h6 class="text-white font-bevan font-thin">25.5K</h6>
+                    <h6 class="users-statistics text-white font-bevan font-thin"></h6>
                 </div>
                 <div class="w-full h-full flex items-center justify-center flex-col ">
                     <h5 class="text-center text-white leading-10">Tourist Guide</h5>
-                    <h6 class="text-white font-bevan font-thin">2K+</h6>
+                    <h6 class="tickets-statistics text-white font-bevan font-thin"></h6>
                 </div>
                 <div class="w-full h-full flex items-center justify-center flex-col ">
                     <h5 class="text-center text-white leading-10">Tourist Center</h5>
-                    <h6 class="text-white font-bevan font-thin">1.1k</h6>
+                    <h6 class="countries-statistics text-white font-bevan font-thin"></h6>
                 </div>
             </div>
         </div>
@@ -93,14 +95,31 @@
             <img src="/pics/land-Logo-4.png" class="w-[150px] h-[60px]" alt="">
         </div>
     </section>
-    <!-------------------------------------------------- First Landing End-------------------------------------------------->
-    <section class="bg-cover w-widthMax h-screen backdrop-blur-lg " style="background-image:url(/pics/nature-main-2.png)">
+    <!-- ------------------End Header & Landing -->
+
+    <section class="bg-cover bg-no-repeat bg-center w-widthMax h-[160vh] "
+        style="background-image: url(/pics/nature-main-2.png);">
+        <div class="w-full h-full  flex flex-col items-center">
+            <div class="w-1/3 text-center leading-10 text-white ">
+                <h2 class="capitalize font-bold text-4xl mt-24"><span class="text-primary-green">Explore</span> the
+                    world </h2>
+
+                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum cumque fuga dolor
+                    fugiat
+                    dignissimos praesentium odio, dolore velit tempora eius doloremque eum veritatis </p>
+            </div>
+            <input type="search" class="w-1/3 mt-8 rounded-xl py-3">
 
 
 
 
 
 
+
+
+
+
+        </div>
     </section>
     <script src="/src/js/main.js"></script>
 </body>

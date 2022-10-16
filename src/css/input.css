@@ -11,7 +11,23 @@
     font-family: "bevan";
     src: url(/fonts/Bevan-Regular.ttf) format("truetype");
 }
+:root{
+    --primary-green : "#009490",
+}
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
 body { 
     transition: all 0.3s ease-out;
 }
-
+#homeEffect {
+    transition: all 0.3s ease-in-out;
+}
+ #homeEffect:hover:nth-child(1) {
+    outline: 2px solid white;
+    outline-offset: -5px;
+}
