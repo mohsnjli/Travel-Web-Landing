@@ -3,31 +3,89 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+
 @font-face {
     font-family: "poppins";
     src: url(/fonts/Poppins-Regular.ttf) format("truetype");
 }
+
 @font-face {
     font-family: "bevan";
     src: url(/fonts/Bevan-Regular.ttf) format("truetype");
 }
-:root{
-    --primary-green : "#009490",
+
+@font-face {
+    font-family: "chamran";
+    src: url(/fonts/chamran-Regular.TTF) format("truetype");
 }
-*{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+button {
+    font-family: "chamran";
+    font-weight: 500;
+}
+
+:root {
+    --primary-green: "#009490",
+}
+
+* {
     scroll-behavior: smooth;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     outline: none;
 }
-body { 
-    transition: all 0.3s ease-out;
-}
-#homeEffect {
+
+body,
+#homeEffect,
+#exploreBtn {
     transition: all 0.3s ease-in-out;
 }
- #homeEffect:hover:nth-child(1) {
+
+#homeEffect:hover:nth-child(1) {
     outline: 2px solid white;
     outline-offset: -5px;
+}
+
+#exploreBtn {
+    outline: 2px solid transparent;
+}
+
+#exploreBtn:hover {
+    outline-color: black;
+    outline-offset: -10px;
+}
+
+
+.li-hover-after {
+    position: relative;
+}
+.li-hover-after:focus {
+    background-color: white;
+    border-radius: 50px;
+    background-color: #009490;
+}
+
+.li-hover-after::before {
+    content: " ";
+    position: absolute;
+    width: 50%;
+    height: 5px;
+    border-radius: 50px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #009490;
+    transition: all 0.2s ease-in;
+}
+.li-hover-after:hover::before { 
+    bottom: -12px;
 }

@@ -37,6 +37,7 @@ module.exports = {
       fontFamily: {
         "poppins": "'poppins'",
         "bevan": "'bevan'",
+        "chamran": "'chamran'",
       }
 
     },
