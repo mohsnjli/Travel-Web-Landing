@@ -27,7 +27,7 @@ module.exports = {
         "bold": 700,
       },
       width: {
-        "widthMax": "1440"
+        "widthMax": "99vw"
       },
       height: {
         "nav-height": "60px" , 

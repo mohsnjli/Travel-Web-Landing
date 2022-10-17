@@ -14,7 +14,7 @@
 </head>
 
 
-<body class="w-full h-max">
+<body class="w-full h-max overflow-x-hidden">
     <!------------------------------- Start Landing --------------------------->
     <header class="w-widthMax h-nav-height bg-black flex flex-row sticky top-0 z-50">
         <div class="w-1/3 flex items-center">
@@ -42,7 +42,9 @@
         <div class="w-1/3 h-nav-height">
             <div class="w-full h-nav-height flex items-center justify-center">
                 <a href="#" class="group  text-white font-regular font-[18px] text-center hover:text-primary-green">
-                    پیوستن <i class="transition-all duration-200 ease-in-out fa-solid fa-user-circle translate-x-4 opacity-0 group-hover:opacity-100 group-hover:inline group-hover:translate-x-0 "></i> </a>
+                    پیوستن <i
+                        class="transition-all duration-200 ease-in-out fa-solid fa-user-circle translate-x-4 opacity-0 group-hover:opacity-100 group-hover:inline group-hover:translate-x-0 "></i>
+                </a>
             </div>
         </div>
     </header>
@@ -50,13 +52,16 @@
     <section class="w-widthMax h-screen bg-no-repeat bg-cover flex flex-row flex-wrap"
         style="background-image: url(/pics/nature-main.png);">
         <div class="w-1/2 h-[350px] flex flex-col items-center justify-end">
-            <h1 dir="rtl" class="font-chamran w-[549px] h-[209px] text-[74px] leading-[96px] font-normal mt-6"><span class="text-h1-silver">
+            <h1 dir="rtl" class="font-chamran w-[549px] h-[209px] text-[74px] leading-[96px] font-normal mt-6"><span
+                    class="text-h1-silver">
                     تجربه های جدید را</span><br>
                 <span class="text-primary-green drop-shadow-2xl">کشــــــــــــــــف کن</span>
             </h1>
 
             <button id="exploreBtn" class=" group bg-transparent border-2 border-white text-white font-normal px-8 py-2 relative
-             mt-12 hover:bg-white hover:text-black"><span class="transition-all duration-200 ease-in-out w-[500%] h-[2px] bg-white absolute -translate-x-[1000px] group-hover:-translate-x-[520px] translate-y-3 "></span> کاوش</button>
+             mt-12 hover:bg-white hover:text-black"><span
+                    class="transition-all duration-200 ease-in-out w-[500%] h-[2px] bg-white absolute -translate-x-[1000px] group-hover:-translate-x-[520px] translate-y-3 "></span>
+                کاوش</button>
         </div>
         <div class="flex flex-col w-1/2 ">
             <div class="w-full h-max flex flex-row items-stretch justify-center overflow-hidden">
@@ -92,10 +97,18 @@
             </div>
         </div>
         <div class="w-full h-[130px] bg-therth-gray flex flex-row items-center justify-around ">
-            <img src="/pics/land-Logo-1.png" class="w-[150px] h-[60px] hover:cursor-pointer hover:scale-110 transition-all duration-200 ease-in-out" alt="">
-            <img src="/pics/land-Logo-2.png" class="w-[150px] h-[60px] hover:cursor-pointer hover:scale-110 transition-all duration-200 ease-in-out" alt="">
-            <img src="/pics/land-Logo-3.png" class="w-[150px] h-[60px] hover:cursor-pointer hover:scale-110 transition-all duration-200 ease-in-out" alt="">
-            <img src="/pics/land-Logo-4.png" class="w-[150px] h-[60px] hover:cursor-pointer hover:scale-110 transition-all duration-200 ease-in-out" alt="">
+            <img src="/pics/land-Logo-1.png"
+                class="w-[150px] h-[60px] hover:cursor-pointer hover:scale-110 transition-all duration-200 ease-in-out"
+                alt="">
+            <img src="/pics/land-Logo-2.png"
+                class="w-[150px] h-[60px] hover:cursor-pointer hover:scale-110 transition-all duration-200 ease-in-out"
+                alt="">
+            <img src="/pics/land-Logo-3.png"
+                class="w-[150px] h-[60px] hover:cursor-pointer hover:scale-110 transition-all duration-200 ease-in-out"
+                alt="">
+            <img src="/pics/land-Logo-4.png"
+                class="w-[150px] h-[60px] hover:cursor-pointer hover:scale-110 transition-all duration-200 ease-in-out"
+                alt="">
         </div>
     </section>
     <!-- ------------------End Header & Landing -->
@@ -104,8 +117,9 @@
         style="background-image: url(/pics/nature-main-2.png);">
         <div class="w-full h-full flex flex-col items-center">
             <div class="w-1/3 text-center leading-10 text-white ">
-                <h2 dir="r" class="capitalize font-bold text-4xl mt-24"><span class="text-primary-green">دنیا </span> را کاوش کن </h2>
-                <p dir="rtl" class="text-center"> مقصد مورد نظر خود را جستجو کنید ...</p>
+                <h2 dir="rtl" class="capitalize font-bold text-4xl mt-24 tracking-wider"><span
+                        class="text-primary-green tracking-wider">دنیا </span> را کاوش کن </h2>
+                <p dir="rtl" class="text-center tracking-wider"> مقصد مورد نظر خود را جستجو کنید ...</p>
             </div>
             <div class="w-full h-12 flex items-center justify-center flex-row relative">
                 <a
@@ -114,7 +128,31 @@
                 <input id="search" dir="rtl" type="search" placeholder="Example : UA , New York, NY"
                     class="pl-10 pr-24 w-1/3 mt-8 rounded-xl py-3 relative">
             </div>
+            <div class="mt-24 w-widthMax h-12 flex items-end justify-end flex-col">
+                <h5 dir="rtl" class="text-2xl mr-24 text-white">جستجو های محبوب</h5>
+                <span class="w-1/3 h-0.5 mt-2 bg-white"></span>
+            </div>
+            <section class="w-widthMax h-[100vh] flex flex-row mt-24 mx-10 items-start justify-center">
 
+                <div class="w-2/3 h-[90vh]  flex flex-wrap  rounded-xl">
+                    <div class=" w-2/3 h-1/2 p-2">
+                        <div class="w-full h-full rounded-xl bg-white/20 backBlur"></div>
+                    </div>
+                    <div class=" w-1/3 h-1/2 p-2">
+                        <div class="w-full h-full rounded-xl bg-white/20 backBlur"></div>
+                    </div>
+                    <div class=" w-full h-1/2 p-2">
+                        <div class="w-full h-full rounded-xl bg-white/20 backBlur"></div>
+                    </div>
+                </div>
+                <div class="w-1/4 h-[90vh] p-2 ">
+                    <div class="w-full h-full bg-white/20 backBlur rounded-xl"></div>
+                </div>
+
+
+
+
+            </section>
 
 
 
